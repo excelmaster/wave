@@ -10,6 +10,11 @@ RUN apt-get update && apt-get install -y \
     supervisor \
     && rm -rf /var/lib/apt/lists/*
 
+# Crear el directorio de logs de supervisord y cambiar permisos
+RUN mkdir -p /var/log/supervisor && \
+    chown -R supervisoruser:supervisoruser /var/log/supervisor && \
+    chmod -R 777 /var/log/supervisor
+
 # Establecer el directorio de trabajo
 WORKDIR /app
 
