@@ -1,1 +1,3 @@
 supervisord.pid
+supervisord.conf
+app/__pycache__/app.cpython-311.pyc
