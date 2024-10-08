@@ -1,0 +1,33 @@
+2024-10-08 18:02:26,512 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-08 18:02:26,515 INFO supervisord started with pid 1
+2024-10-08 18:02:27,517 INFO spawned: 'gunicorn' with pid 7
+2024-10-08 18:02:27,646 WARN exited: gunicorn (exit status 1; not expected)
+2024-10-08 18:02:28,649 INFO spawned: 'gunicorn' with pid 11
+2024-10-08 18:02:28,772 WARN exited: gunicorn (exit status 1; not expected)
+2024-10-08 18:02:30,776 INFO spawned: 'gunicorn' with pid 15
+2024-10-08 18:02:30,876 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:02:33,881 INFO spawned: 'gunicorn' with pid 17
+2024-10-08 18:02:33,980 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:02:34,981 INFO gave up: gunicorn entered FATAL state, too many start retries too quickly
+2024-10-08 18:08:44,265 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2024-10-08 18:08:44,268 INFO supervisord started with pid 1
+2024-10-08 18:08:45,271 INFO spawned: 'gunicorn' with pid 7
+2024-10-08 18:08:45,373 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:08:46,375 INFO spawned: 'gunicorn' with pid 9
+2024-10-08 18:08:46,479 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:08:48,483 INFO spawned: 'gunicorn' with pid 11
+2024-10-08 18:08:48,684 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:08:51,687 INFO spawned: 'gunicorn' with pid 15
+2024-10-08 18:08:51,896 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:08:52,897 INFO gave up: gunicorn entered FATAL state, too many start retries too quickly
+2024-10-08 18:12:15,722 INFO Set uid to user 0 succeeded
+2024-10-08 18:12:15,726 INFO supervisord started with pid 1
+2024-10-08 18:12:16,728 INFO spawned: 'gunicorn' with pid 7
+2024-10-08 18:12:16,924 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:12:17,926 INFO spawned: 'gunicorn' with pid 9
+2024-10-08 18:12:18,028 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:12:20,032 INFO spawned: 'gunicorn' with pid 11
+2024-10-08 18:12:20,238 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:12:23,241 INFO spawned: 'gunicorn' with pid 14
+2024-10-08 18:12:23,337 WARN exited: gunicorn (exit status 4; not expected)
+2024-10-08 18:12:24,339 INFO gave up: gunicorn entered FATAL state, too many start retries too quickly

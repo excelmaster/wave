@@ -1,0 +1,20 @@
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /usr/bin/supervisord
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"  # Exponer el puerto 8000 para Gunicorn
+    depends_on:
+      - nginx  # nginx debería empezar después de que web esté listo
+
+  nginx:
+    image: nginx:alpine
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
