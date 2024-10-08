@@ -38,4 +38,4 @@ USER root
 EXPOSE 8000
 
 # Comando para iniciar supervisord
-CMD ["/usr/bin/supervisord"]
+CMD ["/usr/bin/supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
